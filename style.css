@@ -1,0 +1,95 @@
+	h3{
+  font-size:26px;
+  background:linear-gradient(to left,#5d5d5d,#ddd);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+	text-align:left;
+	font-size:26px;
+}
+.article-item{
+  display:flex;
+  align-items:center;
+}
+.article-item .article-img,.article-item .article-text{
+  flex:50%;
+}
+.article-item:nth-child(odd){
+  flex-direction:row-reverse;
+}
+ body{
+    background-color:black;
+    margin:0;
+  }
+  h1{
+    color:white;
+	font-size:90px;
+	text-align:center;
+  }
+@media (max-width:991px){
+  .article-item,.article-item:nth-child(odd){
+    flex-direction:column-reverse;
+  }
+}
+@media (max-width:575px){
+ 
+  
+  h1{
+    color:#000;
+  }
+  
+  h3{
+    background: #484747;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+	
+  }
+}
+p{
+    color:white;
+	top:30px;
+  }
+  img{
+	  width:100%;
+  }
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="article-item">
+		
+					<div class="article-text">
+				<h3>Протягом 1950 -х років США розглядали можливість детонації ядерної бомби на Місяці.</h3>
+<p>
+
+
+Секретний проект під час розпалу холодної війни був відомий як «Дослідження місячних дослідницьких польотів» або «Проект A119» і мав на увазі демонстрацію сили в той час, коли вони відставали в космічній гонці.</p>
+          
+
+          <
+
+
+                
+				<p> </p>
+			</div>
+			<div class="article-img">
+		     <img src="../images/nuclear-bomb.png"> 
+			</div>	
+		</div>
+		
